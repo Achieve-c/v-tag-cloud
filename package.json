@@ -1,0 +1,71 @@
+{
+  "_from": "v-tag-cloud",
+  "_id": "v-tag-cloud@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-BUEH5FiH5DCfNGGNV2zMlM0SqOXn3zfEw1+PZY7EGLrdC7N67sxss4DDFQIWHf0t0e/jckvfUtGo+DGSHKD8Bg==",
+  "_location": "/v-tag-cloud",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "v-tag-cloud",
+    "name": "v-tag-cloud",
+    "escapedName": "v-tag-cloud",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/v-tag-cloud/-/v-tag-cloud-1.0.3.tgz",
+  "_shasum": "ea12df93bd5f94426ff92d6076fd356b8a983af3",
+  "_spec": "v-tag-cloud",
+  "_where": "C:\\Users\\予渊\\Desktop\\shazam-vue",
+  "author": {
+    "name": "vincent",
+    "email": "619115125@qq.com"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "bundleDependencies": false,
+  "dependencies": {
+    "vue": "^2.5.11"
+  },
+  "deprecated": false,
+  "description": "Vue标签云组件",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "keywords": [
+    "Vue",
+    "标签云"
+  ],
+  "license": "MIT",
+  "main": "dist/tag-cloud.js",
+  "name": "v-tag-cloud",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/619115125/tagCloud.git"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot"
+  },
+  "version": "1.0.3"
+}
